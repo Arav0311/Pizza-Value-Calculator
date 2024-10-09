@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to pizza value calculator!</h1>
+    <div style="display: flex; justify-content: space-between; border: solid;margin-left: 500px;margin-right: 500px;padding-bottom: 20px;">
+        
+        <div class="pizzabox" style="padding-left: 20px;">
+            <h2>Pizza/s 1</h2>
+            <label for="1price">Total Price:</label><br>
+            <input class="tb1" id="1price" type="text"> <br>
+            <label for="1area">Diameter:</label><br>
+
+            <input class="tb1" id="1area" type="text"><br>
+            <label for="qt1">Quantity:</label><br>
+
+            <input class="tb1" id="qt1" type="text">
+
+        </div>
+        <div class="result">
+            <h2 id="result" style="text-align: center; padding-left: 20px; padding-right: 20px;">
+
+            </h2>
+
+
+        </div>
+        <div class="pizzabox" style="padding-right: 20px;">
+            <h2>Pizza/s 2</h2>
+            <label for="2price">Total Price:</label><br>
+            <input class="tb1" id="2price" type="text"><br>
+            <label for="2area">Diameter:</label><br>
+
+            <input class="tb1" id="2area" type="text"><br>
+            <label for="qt2">Quantity:</label><br>
+
+            <input class="tb1" id="qt2" type="text">
+            
+        </div>
+        
+    </div>
+    <div style="display: flex;justify-content: center;">
+    
+        <button id="mybutton" class="mybutton"></button><br>
+        <h2 style="margin-top: 60px;">Click on the pizza<br>to calculate!!!</h2>
+        
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

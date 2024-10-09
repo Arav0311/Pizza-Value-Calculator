@@ -1,0 +1,32 @@
+.pizzabox {
+ 
+}
+
+h1 { 
+    text-align: center;
+}
+
+.mybutton{
+    height: 200px;
+    width: 200px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/178/999/original/cartoon-small-pizza-file-free-png.png);
+    background-size: 200px;
+    background-color: rgb(7, 1, 29);
+    color: white;
+    border: none;
+
+}
+
+body {
+    font-family: 'Courier New';
+    color: white;
+    background-color: rgb(7, 1, 29);
+}
+
+.tb1 {
+    border-color: white;
+}
+
+.result {
+    padding-top: 30px;
+}
